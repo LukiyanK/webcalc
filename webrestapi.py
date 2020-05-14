@@ -33,7 +33,7 @@ def division(num1, num2):
   r.hmset(now.strftime("%m/%d/%Y, %H:%M:%S"),tored)
   return str(result)
 def default(num1, num2):
-  return "!#@@@@ op = plus | sub | mul | div"
+  return "!#$$$$$$$ op = plus | sub | mul | div"
 switcher = {
     "plus": addition,
     "sub": subtraction,
