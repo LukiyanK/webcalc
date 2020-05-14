@@ -1,4 +1,4 @@
-sudo kill $(ps aux | grep 'python webcalc/webrestapi.py' | awk '{print $2}') 
+sudo kill $(ps aux | grep 'python webcalc/webrestapi.py' | awk '{print $2}') 2>1&
 tmux
-sudo python webcalc/webrestapi.py &2>1 &
+sudo python webcalc/webrestapi.py &2>1
 tmux detach
