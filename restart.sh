@@ -1,2 +1,2 @@
-sudo kill $(ps aux | grep 'python webcalc.py' | awk '{print $2}') >2& 
-sudo python webcalc.py &
+sudo kill $(ps aux | grep 'python webcalc.py' | awk '{print $2}') 
+sudo python webrestapi.py &
